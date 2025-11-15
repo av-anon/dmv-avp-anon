@@ -56,7 +56,7 @@ See diagram in [full view](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&h
 
 The framework can be applied to use multiple hosts/vehicles.
 
-See [Scaling for Multiple Vehicles](scaling-multi-vehicle.md).
+See [Scaling for Multiple Vehicles]().
 
 ---
 
