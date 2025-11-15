@@ -1,0 +1,67 @@
+site_name: Multi-Vehicle AVP
+site_description: A real-time distributed automated valet parking simulation across multiple hosts
+site_url: https://XXX.github.io/multi-vehicle-avp
+repo_name: XXX/multi-vehicle-avp
+repo_url: https://github.com/XXX/multi-vehicle-avp
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - System Architecture: GettingStarted/SystemArchitecture/index.md
+      - Software Setup: GettingStarted/SoftwareSetup/index.md
+      - Multi-Vehicle AVP Simulation: GettingStarted/Multi-VehicleAVPSimulation/index.md
+  - Scalability: 
+    - Scaling to More Vehicles: Scalability/ScalingToMoreVehicles/index.md
+    - Benchmarks: Scalability/Benchmarks/index.md
+  - Developer Guide:
+    - Quick Commands: DeveloperGuide/QuickCommands/index.md
+    - License: DeveloperGuide/License/index.md
