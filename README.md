@@ -27,7 +27,7 @@ It integrates a **Unity-based perception module (U-YOLO)** for parking-spot dete
 ---
 
 ## Getting Started and Documentation
-[https://av-anon.github.io/multi-vehicle-avp](https://av-anon.github.io/multi-vehicle-avp)
+[https://av-anon.github.io/dmv-avp-anon](https://av-anon.github.io/dmv-avp-anon)
 
 ---
 
