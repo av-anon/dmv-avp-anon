@@ -1,8 +1,8 @@
-site_name: Multi-Vehicle AVP
+site_name: Distributed Multi-Vehicle AVP
 site_description: A real-time distributed automated valet parking simulation across multiple hosts
-site_url: https://XXX.github.io/multi-vehicle-avp
-repo_name: XXX/multi-vehicle-avp
-repo_url: https://github.com/XXX/multi-vehicle-avp
+site_url: https://av-anon.github.io/dmv-avp-anon
+repo_name: av-anon/dmv-avp-anon
+repo_url: https://github.com/av-anon/dmv-avp-anon
 
 theme:
   name: material
