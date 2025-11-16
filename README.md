@@ -17,7 +17,7 @@ It integrates the **Unity-Integrated YOLOv5 Parking Spot Detection Module (U-YOL
 
 ## Features
 
-- Multi-host, multi-vehicle Automated Valet Parking (AVP) simulation
+- Multi-host, multi-vehicle AVP simulation
 - Zenoh-based distributed ROS 2 topic bridging for synchronized operation
 - Parking spot detection and reservation mechanisms
 - Namespace-aware orchestration for individual Autoware stacks
