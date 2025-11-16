@@ -1,6 +1,5 @@
-# Multi-Vehicle Autonomous Valet Parking
-*Distributed Autonomous Valet Parking Across Multiple Hosts*
-
+# Distributed Multi-Vehicle Autonomous Valet Parking System (DMV-AVP) 
+*Distributed AVP Across Multiple Hosts*
 
 ![Autoware](https://img.shields.io/badge/Autoware-2024.11-blue?logo=autoware)
 ![AWSIM Labs](https://img.shields.io/badge/AWSIM%20Labs-Unity-green?logo=unity)
@@ -10,9 +9,9 @@
 ![AVP Node](https://img.shields.io/badge/AVP_Node-custom-black?logo=robotframework)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache)
 
-The **Multi-Vehicle Autonomous Valet Parking** system extends the [**Distributed Multi-Vehicle Architecture**](https://github.com/XXX/distributed-multi-vehicle-architecture) to support **coordinated autonomous parking across multiple vehicles and physical hosts** using **Autoware Universe**, **AWSIM Labs**, and **Zenoh**.  
+The **DMV-AVP System** extends the [**Distributed Multi-AV Architecture (DMAVA**](https://github.com/XXX/distributed-multi-vehicle-architecture) to support **coordinated autonomous parking across multiple vehicles and physical hosts** using **Autoware Universe**, **AWSIM Labs**, and **Zenoh**.  
 
-It integrates a **Unity-based perception module (U-YOLO)** for parking-spot detection and a **Multi-Vehicle AVP Node** for orchestration, queuing, and reservation management. Together, these components enable **real-time distributed coordination**, **synchronized planning**, and **conflict-free multi-vehicle parking behavior**.
+It integrates the **Unity-Integrated YOLOv5 Parking Spot Detection Module (U-YOLO)** for parking-spot detection and the **Multi-Vehicle AVP Node** for orchestration, queuing, and reservation management. Together, these components enable **real-time distributed coordination**, **synchronized planning**, and **conflict-free multi-vehicle parking behavior**.
 
 ---
 
