@@ -22,18 +22,18 @@ Ensure the following components are set up on each host:
 ## Launch Sequence
 Follow the steps below to launch all components required for the simulation.
 
-1. **Launching the Framework**
+1. **Launching the DMAVA**
 
-    Follow the [Multi-Vehicle Simulation](https://XXX.github.io/multi-vehicle-framework/GettingStarted/Multi-VehicleSimulation) section in the framework.
+    Follow the [Multi-Vehicle Simulation](https://av-anon.github.io/dmv-avp-anon/GettingStarted/Multi-VehicleSimulation) section in the DMAVA docs.
 
-2. **Start the YOLO Server**
+2. **Start U-YOLO**
 
     **Host 1**
 
     Go to Tab 1, split the terminal horizontally, and run the following commands in the bottom pane:
 
     ```bash
-    source ~/Multi-Vehicle-Autonomous-Valet-Parking/yolo_detection_server/venv/bin/activate
+    source ~/dmv-avp-anon/yolo_detection_server/venv/bin/activate
     python3 yolo_server.py
     ```
     
@@ -44,7 +44,7 @@ Follow the steps below to launch all components required for the simulation.
     ```bash
     source /opt/ros/humble/setup.bash
     source ~/autoware/install/setup.bash
-    source ~/multi-vehicle-avp/multi_vehicle_avp/install/setup.bash
+    source ~/dmv-avp-anon/multi_vehicle_avp/install/setup.bash
     ros2 launch avp_node multi_avp_launch.py vehicle_id:=1 enable_managers:=true namespaces:="['vehicle2']"
     ```
     > See [] for explanation of arguments.
@@ -54,13 +54,13 @@ Follow the steps below to launch all components required for the simulation.
     ```bash
     source /opt/ros/humble/setup.bash
     source ~/autoware/install/setup.bash
-    source ~/multi-vehicle-avp/multi_vehicle_avp/install/setup.bash
+    source ~/dmv-avp-anon/multi_vehicle_avp/install/setup.bash
     ros2 launch avp_node multi_avp_launch.py vehicle_id:=2
     ```
 
 ## Multi-Vehicle AVP Demonstration
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s1ufNOW7mmE?list=PL4MADLjXmDi1Q5XXCuFTEntWz1c_T50jd" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+[Demo](https://drive.google.com/file/d/1N4-syknWXr84Mb6QjW1Psg_lEWWAnxMf/view?usp=drive_link)
 
 ---
 

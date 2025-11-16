@@ -5,7 +5,7 @@ To evaluate the performance of running three vehicles across separate hosts, mem
 **Nitro PC (Host 1)**  
 
 ```bash
-ovin@ovin-Nitro-N50-640:~$ free -h
+XXXX@XXXX-Nitro-N50-640:~$ free -h
                 total        used        free      shared  buff/cache   available
 Mem:             23Gi        17Gi       489Mi       126Mi       5.4Gi       5.4Gi
 Swap:            31Gi          0B        31Gi
@@ -43,7 +43,7 @@ Swap:            31Gi       0.0Ki        31Gi
 
 ### Observations
 
-Observations are similar to the framework. See [Benchmarks](https://XXX.github.io/multi-vehicle-framework/Scalability/Benchmarks/).
+Observations are similar to the framework. See [DMAVA Benchmarks](https://av-anon.github.io/dmv-avp-anon/Scalability/Benchmarks/).
 
 ---
 
@@ -52,7 +52,7 @@ Observations are similar to the framework. See [Benchmarks](https://XXX.github.i
 **Nitro PC (Host 1)**  
 
 ```bash
-ovin@ovin-Nitro-N50-640:~$ free -h
+XXXX@XXXX-Nitro-N50-640:~$ free -h
                total        used        free      shared  buff/cache   available
 Mem:            23Gi        15Gi       426Mi       151Mi       7.1Gi      7.0Gi
 Swap:           31Gi          0B        31Gi

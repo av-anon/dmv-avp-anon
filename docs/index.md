@@ -1,4 +1,4 @@
-# Multi-Vehicle Autonomous Valet Parking
+# Distributed Multi-Vehicle AVP System (DMV-AVP) 
 *Distributed Autonomous Valet Parking Across Multiple Hosts*
 
 ![Autoware](https://img.shields.io/badge/Autoware-2024.11-blue?logo=autoware)
@@ -9,15 +9,15 @@
 ![AVP Node](https://img.shields.io/badge/AVP_Node-custom-black?logo=robotframework)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache)
 
-The **Multi-Vehicle AVP** system extends the [Multi-Vehicle AV Framework](https://XXX.github.io/multi-vehicle-framework) to support **multiple vehicles operating in a shared simulation environment across different physical hosts**.  
+The **DMV-AVP System** extends the [**Distributed Multi-AV Architecture (DMAVA)**](https://github.com/av-anon/dmava-anon) to support **coordinated autonomous parking across multiple vehicles and physical hosts** using **Autoware Universe**, **AWSIM Labs**, and **Zenoh**.  
 
-This setup leverages **Zenoh** for ROS 2 topic synchronization, enabling each vehicle to operate its own Autoware stack while coordinating parking decisions in real-time.
+It integrates the **Unity-Integrated YOLOv5 Parking Spot Detection Module (U-YOLO)** for parking-spot detection and the **Multi-Vehicle AVP Node** for orchestration, queuing, and reservation management. Together, these components enable **real-time distributed coordination**, **synchronized planning**, and **conflict-free multi-vehicle parking behavior**.
 
 ---
 
 ## Features
 
-- Multi-host, multi-vehicle Automated Valet Parking (AVP) simulation
+- Multi-host, multi-vehicle AVP simulation
 - Zenoh-based distributed ROS 2 topic bridging for synchronized operation
 - Parking spot detection and reservation mechanisms
 - Namespace-aware orchestration for individual Autoware stacks
@@ -28,13 +28,6 @@ This setup leverages **Zenoh** for ROS 2 topic synchronization, enabling each ve
 
 ## Getting Started
 
-This AVP implementation builds on the [Multi-Vehicle AV Framework](https://XXX.github.io/multi-vehicle-framework). Make sure the framework is installed and set up before proceeding.  
-
-Once the framework is ready, see the [System Architecture](GettingStarted/SystemArchitecture/index.md) page to begin running the AVP system.  
+To get started with running the DMV-AVP System, see the [System Architecture](GettingStarted/SystemArchitecture/index.md) page.
 
 For a condensed list of frequently used commands, refer to the [Developer Quick Commands](DeveloperGuide/QuickCommands/index.md) page.  
-
-
-## Troubleshooting 
-
-Refer to [Issues](https://github.com/XXX/multi-vehicle-framework/issues) to see if the issue has been addressed. Otherwise, feel free to open one.

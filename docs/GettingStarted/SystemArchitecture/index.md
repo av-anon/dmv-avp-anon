@@ -1,21 +1,25 @@
 # System Architecture
 
-The Autonomous Valet Parking (AVP) system is built as an extension of the core [Multi-Vehicle AV Framework](https://XXX.github.io/multi-vehicle-framework).
+The Autonomous Valet Parking (AVP) system is built as an extension of the [DMAVA](https://github.com/av-anon/dmava-anon).
 It relies on the same architecture, but with added orchestration logic, manager nodes, and namespace handling to enable multi-vehicle parking coordination.
 
-## Distributed AVP Architecture
+## DMV-AVP Architecture
 
-![Distributed AVP Architecture](distributed_framework_arch.png)
-
-See diagram in [full view](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Distributed%20AVP%20System%20Architecture%20-%20Multi-Host%20Configuration&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1OdbzL3HdfH8Y_gELLkJN0JoSe5TTd_UL%26export%3Ddownload).
-
+![DMV-AVP Architecture](Architecture.png)
 
 ---
 
+
+## System Workflow
+
+![System Workflow](System_Workflow.png)
+
+---
+
+
 ## AVP State Machine Flow
 
-![AVP State Machine Diagram](avp_state_machine.png)
-See diagram in [full view](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=AVP%20State%20Machine&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1e9ikQncDPz8bRWiGY5ZNu6GCJ8BHFljs%26export%3Ddownload).
+![AVP State Machine Diagram](AVP_State_Machine.png)
 
 ---
 
@@ -52,12 +56,5 @@ See diagram in [full view](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&h
 
 ---
 
-## Scalability
-
-The framework can be applied to use multiple hosts/vehicles.
-
-See [Scaling for Multiple Vehicles]().
-
----
 
 **Next Steps:** Proceed to [Software Setup](../SoftwareSetup/index.md).
